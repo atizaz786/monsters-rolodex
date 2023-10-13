@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.bg-gradient {
+  background-image: linear-gradient(to right, #59C3C3, #046865);
+}
+
+.creepster {
+  font-family: 'Creepster', cursive;
+  color: #79AC78;
+}
+
+.bg-color {
+  background-color: #79AC78;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

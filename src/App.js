@@ -44,7 +44,7 @@ function App() {
     <div className="App bg-gray-100 bg-gradient">
       <h1 className='font-bold text-6xl justify-center creepster'> Monsters Rolodex </h1>
       <input className='w-1/3 mx-auto mt-4 p-2 rounded-md shadow-md' type='search' placeholder='Search Monsters' onChange={handleChange} />
-      <button className='w-1/3 mx-auto mt-4 p-2 ml-3 rounded-md shadow-md' onClick={buttonClick}>Sort Monsters</button>
+      {/* <button className='w-1/3 mx-auto mt-4 p-2 ml-3 rounded-md shadow-md' onClick={buttonClick}>Sort Monsters</button> */}
       <Card monsters={filteredMonsters} />
     </div>
   );
